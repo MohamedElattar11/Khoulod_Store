@@ -88,7 +88,7 @@ const Categories = () => {
           }
         >
           <img
-            src={"../../../src/images/category1.jpg"}
+            src={"images/category1.jpg"}
             className=" absolute w-full h-full rounded-xl object-cover"
           />
           <div className="w-full h-full hidden group-hover:flex group-hover:flex-col group-hover:items-center group-hover:justify-center group-hover:animate-wiggle group-hover:bg-primary group-hover:bg-opacity-50 rounded-xl">
@@ -108,7 +108,7 @@ const Categories = () => {
           }
         >
           <img
-            src={"../../../public/images/category2.jpg"}
+            src={"images/category2.jpg"}
             className=" absolute w-full h-full rounded-xl object-cover"
           />
           <div className="w-full h-full hidden group-hover:flex group-hover:flex-col group-hover:items-center group-hover:justify-center group-hover:animate-wiggle group-hover:bg-primary group-hover:bg-opacity-50 rounded-xl">
