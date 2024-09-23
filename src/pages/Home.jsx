@@ -1,8 +1,8 @@
 import React from "react";
 
 // import ProductCard from "../Components/common/ProductCard";
-import BestSelling from "../Components/sections/BestSelling";
-import NewArrivals from "../Components/sections/NewArrivals";
+// import BestSelling from "../Components/sections/BestSelling";
+// import NewArrivals from "../Components/sections/NewArrivals";
 import Services from "../Components/sections/Services";
 import Slider from "../Components/sections/HomeSlider";
 import Categories from "../Components/sections/HomeCategories";
