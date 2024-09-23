@@ -39,7 +39,7 @@ const Sidebar = ({setItemsInCart, itemInCart,setItemsInWishlist,itemsInWishlist}
     },
     {
       title: "Orders",
-      path: "#order",
+      path: "/order",
       icon: "./icons/orders.svg",
       component: <Orders />,
     },
