@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import {Link} from "react-router-dom";
 import Profile from "../sections/Profile";
 import Orders from "../sections/Order";
 import Address from "../sections/Address";
@@ -197,9 +198,9 @@ const Sidebar = ({setItemsInCart, itemInCart,setItemsInWishlist,itemsInWishlist}
                 {/* Menu items */}
                 {navLinks.map((link, ind) => (
                   <li className="" key={ind}>
-                    <a
+                    <Link
                       onClick={() => handleClickedLink(ind)}
-                      href={link.path}
+                      href={`/profile/${link.path}`}
                       className={`${
                         activeLink === ind
                           ? "bg-primary hover:bg-primary text-white"
@@ -232,7 +233,7 @@ const Sidebar = ({setItemsInCart, itemInCart,setItemsInWishlist,itemsInWishlist}
                           activeLink === ind ? "invert" : "invert-[.3]"
                         } `}
                       />
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
