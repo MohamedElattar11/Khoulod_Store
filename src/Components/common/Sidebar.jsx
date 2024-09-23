@@ -40,7 +40,7 @@ const Sidebar = ({setItemsInCart, itemInCart,setItemsInWishlist,itemsInWishlist}
     },
     {
       title: "Orders",
-      path: "/order",
+      path: "#order",
       icon: "./icons/orders.svg",
       component: <Orders />,
     },
@@ -200,7 +200,7 @@ const Sidebar = ({setItemsInCart, itemInCart,setItemsInWishlist,itemsInWishlist}
                   <li className="" key={ind}>
                     <Link
                       onClick={() => handleClickedLink(ind)}
-                      href={`/profile/${link.path}`}
+                      href={`${link.path}`}
                       className={`${
                         activeLink === ind
                           ? "bg-primary hover:bg-primary text-white"
